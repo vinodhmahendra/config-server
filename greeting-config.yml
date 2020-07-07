@@ -10,3 +10,9 @@ management:
       exposure:
         include:
         - "*" # turn off securing the actuator endpoints
+        
+logging:
+  level:
+    spring:
+     cloud:
+      developer: debug
