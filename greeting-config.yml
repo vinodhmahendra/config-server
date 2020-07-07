@@ -8,4 +8,4 @@ management:
       base-path: /manage
       exposure:
         include:
-        - * # turn off securing the actuator endpoints
+        - "*" # turn off securing the actuator endpoints
