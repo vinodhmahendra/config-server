@@ -16,3 +16,5 @@ logging:
     spring:
      cloud: debug
   
+greeting:
+  displayFortune: true # <----Change to true
