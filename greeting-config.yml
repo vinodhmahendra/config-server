@@ -1,6 +1,7 @@
-security:
-  basic:
-    enabled: false # turn off securing our application endpoints
+spring:
+    autoconfigure:
+      exclude[0]: org.springframework.boot.autoconfigure.security.servlet.SecurityAutoConfiguration
+      exclude[1]: org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration
 
 management:
   endpoints:
