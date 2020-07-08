@@ -19,4 +19,4 @@ logging:
 greeting:
   displayFortune: true # <----Change to true
   
-quoteServiceURL: http://localhost:9090/quote
+quoteServiceURL: https://quote-service-dev-12345.cfapps.io/quote
