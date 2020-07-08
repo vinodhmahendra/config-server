@@ -18,3 +18,5 @@ logging:
   
 greeting:
   displayFortune: true # <----Change to true
+  
+quoteServiceURL: http://localhost:9090/quote
