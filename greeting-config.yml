@@ -14,7 +14,7 @@ management:
 logging:
   level:
     spring:
-     cloud: debug
+     cloud: info
   
 greeting:
   displayFortune: true # <----Change to true
