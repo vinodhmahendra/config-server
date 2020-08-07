@@ -5,7 +5,10 @@ spring:
       exclude[1]: org.springframework.boot.actuate.autoconfigure.security.servlet.ManagementWebSecurityAutoConfiguration
       
 
-logging:
-  level:
-    spring:
-     cloud: DEBUG
+management:
+  endpoints:
+    web:
+      base-path: /manage
+      exposure:
+        include:
+        - "*" # turn off securing the actuator endpoints
